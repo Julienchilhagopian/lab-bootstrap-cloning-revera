@@ -1,0 +1,77 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Header ---- */
+
+
+.links ul {
+  float: right;
+}
+
+.links li {
+display: inline-block;
+margin: 0 10px;
+}
+
+.links li:hover {
+  color: rgb(235, 87, 79);
+}
+
+.title {
+  text-transform: uppercase; 
+  font-weight: bold; 
+}
+
+/* ---- Main ---- */
+
+.skills {
+  background-color: rgb(235, 87, 79);
+  color: white;
+  margin-bottom: 50px;
+}
+
+
+.raw-card {
+  background-color: unset;
+  border: unset;
+}
+
+/* ---- Bottom Menu ---- */
+
+.bottom-menu {
+  background-color: rgb(59, 59, 59);
+}
+
+.bottom-menu h5 {
+  color: white;
+}
+
+.bottom-menu li {
+  background-color: unset;
+  border: 1px solid grey;
+  border-style: dotted;
+}
+
+.bottom-menu p {
+  color: gray;
+}
+
+/* ---- Footer ---- */
+
+footer {
+  background-color: rgb(41, 41, 41);
+  color: whitesmoke; 
+  padding-top: 30px;
+
+}
