@@ -32,6 +32,14 @@ margin: 0 10px;
   text-transform: uppercase; 
   font-weight: bold; 
 }
+/* ---- Carousel ---- */
+
+.carousel {
+  padding: 0;
+  background-image: url(./starter-code/img/overlay.png);
+}
+
+
 
 /* ---- Main ---- */
 
@@ -51,6 +59,7 @@ margin: 0 10px;
 
 .bottom-menu {
   background-color: rgb(59, 59, 59);
+  border-top: 5px solid rgb(235, 87, 79);
 }
 
 .bottom-menu h5 {
